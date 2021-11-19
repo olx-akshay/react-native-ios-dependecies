@@ -4,7 +4,7 @@
 # LICENSE file in the root directory of this source tree.
 
 require "json"
-require_relative "../../scripts/react_native_pods.rb"
+# require_relative "../../scripts/react_native_pods.rb"
 
 package = JSON.parse(File.read(File.join(__dir__, "..", "..", "package.json")))
 version = package['version']
@@ -46,5 +46,5 @@ Pod::Spec.new do |s|
   s.dependency "React-jsi", version
   s.dependency "ReactCommon/turbomodule/core", version
 
-  use_react_native_codegen! (s)
+#   use_react_native_codegen! (s)
 end
