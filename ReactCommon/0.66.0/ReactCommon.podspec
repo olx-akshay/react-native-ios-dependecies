@@ -50,17 +50,17 @@ Pod::Spec.new do |s|
     ss.dependency "glog"
 
     ss.subspec "core" do |sss|
-      sss.source_files = "react/nativemodule/core/ReactCommon/**/*.{cpp,h}",
-                         "react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}"
+      sss.source_files = "ReactCommon/react/nativemodule/core/ReactCommon/**/*.{cpp,h}",
+                         "ReactCommon/react/nativemodule/core/platform/ios/**/*.{mm,cpp,h}"
     end
 
     s.subspec "react_debug_core" do |sss|
-        sss.source_files = "react/debug/*.{cpp,h}"
+        sss.source_files = "ReactCommon/react/debug/*.{cpp,h}"
     end
 
     ss.subspec "samples" do |sss|
-      sss.source_files = "react/nativemodule/samples/ReactCommon/**/*.{cpp,h}",
-                         "react/nativemodule/samples/platform/ios/**/*.{mm,cpp,h}"
+      sss.source_files = "ReactCommon/react/nativemodule/samples/ReactCommon/**/*.{cpp,h}",
+                         "ReactCommon/react/nativemodule/samples/platform/ios/**/*.{mm,cpp,h}"
       sss.dependency "ReactCommon/turbomodule/core", version
     end
   end
