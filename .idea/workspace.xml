@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53451e84-2166-4a1a-a11f-8f1753aa48c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FBReactNativeSpec/0.66.0/FBReactNativeSpec.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/FBReactNativeSpec/0.66.0/FBReactNativeSpec.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FBReactNativeSpec/FBReactNativeSpec-generated.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FBReactNativeSpec/FBReactNativeSpec.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CFSDK/0.0.4/CFSDK.podspec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FBReactNativeSpec" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -37,6 +40,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/FBReactNativeSpec" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FBReactNativeSpec/0.66.0" />
     </key>
@@ -49,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639491445838</updated>
-      <workItem from="1639491447397" duration="2664000" />
+      <workItem from="1639491447397" duration="2797000" />
     </task>
     <servers />
   </component>
