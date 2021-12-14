@@ -2,4 +2,6 @@
 /shelf/
 /workspace.xml
 # Editor-based HTTP Client requests
+.idea
+.DS_Store
 /httpRequests/
