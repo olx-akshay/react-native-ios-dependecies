@@ -9,7 +9,7 @@ require "json"
 package = JSON.parse(File.read(File.join(__dir__, "..", "..", "package.json")))
 version = package['version']
 
-source = { :git => 'https://git.naspersclassifieds.com/sandeep.chhabra/CFSDK.git' }
+source = { :git => 'https://github.com/ashish03399/CustomFBReactNativeSpec.git' }
 
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
