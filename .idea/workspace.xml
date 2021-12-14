@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="53451e84-2166-4a1a-a11f-8f1753aa48c8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/FBReactNativeSpec/0.66.0/FBReactNativeSpec.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/FBReactNativeSpec/0.66.0/FBReactNativeSpec.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FBReactNativeSpec/FBReactNativeSpec-generated.mm" beforeDir="false" afterPath="$PROJECT_DIR$/FBReactNativeSpec/0.66.0/FBReactNativeSpec-generated.mm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FBReactNativeSpec/FBReactNativeSpec.h" beforeDir="false" afterPath="$PROJECT_DIR$/FBReactNativeSpec/0.66.0/FBReactNativeSpec.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639491445838</updated>
-      <workItem from="1639491447397" duration="2479000" />
+      <workItem from="1639491447397" duration="2664000" />
     </task>
     <servers />
   </component>
