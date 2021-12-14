@@ -10,7 +10,7 @@ package = JSON.parse(File.read(File.join(__dir__, "..", "..", "package.json")))
 version = package['version']
 
 source = { :git => 'https://github.com/ashish03399/react-native-ios-dependecies.git' }
-# source[:branch] = 'master';
+source[:tag] = version;
 
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 -Wno-comma -Wno-shorten-64-to-32'
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.platforms              = { :ios => "11.0" }
   s.compiler_flags         = folly_compiler_flags + ' -Wno-nullability-completeness'
   s.source                 = source
-  s.source_files           = "FBReactNativeSpec/*.{c,h,m,mm,cpp}"
+  s.source_files           = "FBReactNativeSpec/**/*.{c,h,m,mm,cpp}"
   s.header_dir             = "FBReactNativeSpec"
 
   s.pod_target_xcconfig    = {
