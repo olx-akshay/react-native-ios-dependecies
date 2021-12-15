@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53451e84-2166-4a1a-a11f-8f1753aa48c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FBReactNativeSpec/FBReactNativeSpec-generated.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FBReactNativeSpec/FBReactNativeSpec.podspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CFSDK/0.0.4/CFSDK.podspec" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639491445838</updated>
-      <workItem from="1639491447397" duration="2797000" />
+      <workItem from="1639491447397" duration="3088000" />
     </task>
     <servers />
   </component>
