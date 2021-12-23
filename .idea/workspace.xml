@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53451e84-2166-4a1a-a11f-8f1753aa48c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yoga/0.66.0/Yoga.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/Yoga/0.66.0/Yoga.podspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1639491445838</updated>
       <workItem from="1639491447397" duration="4186000" />
-      <workItem from="1640261863100" duration="177000" />
+      <workItem from="1640261863100" duration="339000" />
+      <workItem from="1640262300848" duration="43000" />
     </task>
     <servers />
   </component>
