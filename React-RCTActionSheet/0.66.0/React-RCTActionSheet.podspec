@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
   s.platforms              = { :ios => "11.0" }
   s.source                 = source
   s.source_files           = "Libraries/ActionSheetIOS/*.{m}"
-  s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "RCTActionSheet"
 
   s.dependency "React-Core/RCTActionSheetHeaders", version
