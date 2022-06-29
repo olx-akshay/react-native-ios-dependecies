@@ -59,7 +59,8 @@ Pod::Spec.new do |spec|
                       'folly/net/detail/*.h',
                       'folly/portability/*.h', 
                       'folly/synchronization/*.{h,cpp}',
-                      'folly/synchronization/detail/*.{h,cpp}'
+                      'folly/synchronization/detail/*.{h,cpp}',
+                      'folly/detail/{AsyncTrace,AtFork,Futex,Futex-inl,MemoryIdler,SingletonStackTrace,StaticSingletonManager,ThreadLocalDetail}.{h,cpp}'
 
   # workaround for https://github.com/facebook/react-native/issues/14326
   spec.preserve_paths = 'folly/*.h',
