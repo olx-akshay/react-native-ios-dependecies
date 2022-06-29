@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.summary = 'An open-source C++ library developed and used at Facebook.'
   spec.authors = 'Facebook'
   spec.source = { :git => 'https://github.com/olx-akshay/RCT-Folly',
-                  :branch => 'build_time_issue_fix'}
+                  :branch => 'folly_issue_fix'}
   spec.module_name = 'folly'
   spec.header_mappings_dir = '.'
   spec.dependency 'boost'
@@ -57,10 +57,10 @@ Pod::Spec.new do |spec|
                       'folly/memory/detail/*.h',
                       'folly/net/*.h',
                       'folly/net/detail/*.h',
-                      'folly/portability/*.h', 
-                      'folly/synchronization/*.{h,cpp}',
-                      'folly/synchronization/detail/*.{h,cpp}',
-                      'folly/detail/{AsyncTrace,AtFork,Futex,Futex-inl,MemoryIdler,SingletonStackTrace,StaticSingletonManager,ThreadLocalDetail}.{h,cpp}'
+                      'folly/portability/*.h'
+                      #'folly/synchronization/*.{h,cpp}',
+                      #'folly/synchronization/detail/*.{h,cpp}',
+                      #'folly/detail/{AsyncTrace,AtFork,Futex,Futex-inl,MemoryIdler,SingletonStackTrace,StaticSingletonManager,ThreadLocalDetail}.{h,cpp}'
 
   # workaround for https://github.com/facebook/react-native/issues/14326
   spec.preserve_paths = 'folly/*.h',
