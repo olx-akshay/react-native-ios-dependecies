@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.summary = 'An open-source C++ library developed and used at Facebook.'
   spec.authors = 'Facebook'
   #:git => 'https://github.com/olx-akshay/RCT-Folly',
-  spec.source = { :git => 'https://git.naspersclassifieds.com/panamera/frontends/ios/react-rctfolly.git'
+  spec.source = { :git => 'https://git.naspersclassifieds.com/panamera/frontends/ios/react-rctfolly.git',
                   :branch => 'rct_folly_build_issue_fix'}
   spec.module_name = 'folly'
   spec.header_mappings_dir = '.'
